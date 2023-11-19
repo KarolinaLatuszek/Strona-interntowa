@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/bb3e75b911.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;1,100&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div class="strippe">
+            <p><a href="./index.html">boom</p></a>
+            <a href="./koszyk1.html"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+    </header>
+    <nav>
+        <button class="burger">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-times hide"></i>
+        </button>
+        <ul>
+            <li><a href="./index.html">O nas</a></li>
+            <li><a href="./shop.html">Sklep</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#footer">Kontakt</a></li>
+        </ul>
+    </nav>
+<form class="registry">
+    <h2>Zarejestruj się</h2>
+    
+<div class="form-box">
+    <input class="field" type="text" id="name" placeholder="Imię*">
+    <p class="error-text">error</p>
+</div>
+<div class="form-box">
+    <input class="field" type="text" id="surname" placeholder="Nazwisko*">
+    <p class="error-text">error</p>
+</div>
+<div class="form-box">
+        <input class="field" type="email" name="" id="mail" placeholder="E-mail*">
+    <p class="error-text">error</p>
+</div>
+<div class="form-box">
+        <input class="field" type="password" name="" id="password" placeholder="Hasło*">
+    <p class="error-text">error</p>
+    
+</div>
+<div class="form-box"><p>Data urodzenia*</p>
+    <input class="field" type="date" name="" id="date" placeholder="Data urodzenia"> <p class="error-text">error</p>
+</div>
+
+<div class="checkbox">
+    <div class="form-box"><label class='labelstatute'for="statute">
+        <input type="checkbox" id="statute" > Akceptuję regulamin i politykę firmy*
+    </label></div>
+<div><label for="statutetwo">
+        <input type="checkbox" id="statutetwo"> Zapisz mnie do newslettera
+    </label></div>
+    <p>* Pola obowiązkowe</p>
+</div>
+    <button class="send">Zarejestruj mnie</button>
+    <a href="./logowanie.html">Mam już konto</a>
+    <div class="popup"><p> Formularz został wysłany</p>
+<button class="close">Zamknij</button></div>
+</form>
+    <footer class="footer" id="footer">
+        <h2>boom</h2>
+        <section class="footer-container">
+        <div class="contact footerbox">
+            <p>kontakt</p>
+        <ul>
+            <li>ul.Nowa 5, 02-300 Warszawa</li>
+            <li><a href="tel:+666333000">666333000</a></li>
+            <li><a href="mailto:boom@gmail.com">boom@gmail.com</a></li>
+        </ul>
+    </div>
+        <div class="footerbox">
+            <p>wsparcie</p>
+        <ul>
+            <li>
+        <a href="#">Dostawa</a></li>
+            <li><a href="#">Formy płatności</a> </li>
+            <li><a href="#">Zwrot i dostawa</a></li>            
+        </ul>
+    </div>
+        <div class="footerbox">
+            <p>regulamin</p>
+        <ul>
+            <li><a href="#">Regulamin</a></li>
+            <li><a href="#">Polityka prywatności</a></li>
+        </ul></div>
+        <div class="footerbox"><p>follow us</p>
+        <ul>
+            <li><a href="http://#"><i class="fa-brands fa-facebook icon"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-instagram icon"></i></a></li>
+    </ul></div></section>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
